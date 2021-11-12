@@ -4,4 +4,4 @@ const removidoDoArray = nossoArray.pop();
 
 console.log(removidoDoArray);
 
-console.log(nossoArray)
+console.log(nossoArray);

@@ -1,5 +1,5 @@
 const novoArray = ["gato", "dorminhoco"];
 
-novoArray.push('cachorro','brincalhao');
+novoArray.push("cachorro", "brincalhao");
 
 console.log(novoArray);

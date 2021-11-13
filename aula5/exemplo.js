@@ -62,3 +62,45 @@ const retornoCondicionaTernario2 = (valor) =>
 const resultaldo = retornoCondicionaTernario2(201);
 
 console.log(resultaldo);
+
+//Loops
+
+for (let contador = 1; contador <= 5; contador++) {
+  // console.log(contador);
+  if (contador === 4) {
+    break;
+  }
+}
+
+const meuArray = [1, 2, 3, 4, 5];
+const meuArray1 = [6, 7, 8, 9, 10];
+const meuArray2 = [1, 2, 3, 4, 5, 6, 7, 8];
+
+for (let indice = 0; indice < meuArray.length; indice++) {
+  console.log(meuArray[indice]);
+}
+
+meuArray1.forEach((item) => {
+  console.log(item);
+});
+
+const arrayAtualizado = meuArray2.map((item) => `meu valor é ${item}`);
+
+console.log(arrayAtualizado);
+console.log(meuArray2);
+
+function repetidorWhile() {
+  let contador = 1;
+  while (contador <= 5) {
+    console.log("testando while");
+    contador++;
+  }
+}
+
+repetidorWhile();
+
+let contador = 1;
+do {
+  console.log("testando do while");
+  contador++;
+} while (contador <= 5);
